@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: #030712;
+  color: #fff;
+  overscroll-behavior: none;           /* evita "puxar para atualizar" durante o filme */
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}

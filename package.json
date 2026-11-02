@@ -1,0 +1,13 @@
+{
+  "name": "watchparty",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Assista vídeos do Google Drive em sincronia com os amigos",
+  "scripts": {
+    "setup": "npm --prefix backend install && npm --prefix frontend install --include=dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start",
+    "test": "npm --prefix backend test"
+  },
+  "engines": { "node": ">=20.19" }
+}
